@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
     <div className=' flex justify-between text-white p-12 ' style={{background:'blue'}} >
-     <Link to='/'><div className='text-4xl sm:text-6xl font-bold'>CoinEx</div></Link>
+     <Link to='/'><div className='text-4xl sm:text-6xl font-bold'>CoinEx </div></Link>
       <div >
         <ul className='flex text-1xl sm:text-3xl '>
          <Link to='/about'><li className='p-3 sm:px-6 hidden sm:block hover:underline semibold'>About </li></Link> 
