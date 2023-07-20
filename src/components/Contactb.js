@@ -38,10 +38,10 @@ const Contactb = () => {
         
          <div className='h-[100vh] text-center flex justify-center '>
             <form className='bg-gray-50 w-full sm:w-3/6 p-2 sm:m-10'>
-                <div><input className='outline-none sm:w-5/6 p-4 sm:m-3 bg-white-600' type='text' placeholder='Name'/></div>
-                <div><input className='outline-none sm:w-5/6 p-4 sm:m-3 bg-white-600' type='text' placeholder='Email'/></div>
-                <div><input className='outline-none sm:w-5/6 p-4 sm:m-3 bg-white-600' type='text' placeholder='Phone number'/></div>
-                <div><textarea rows={7}  className='outline-none sm:w-5/6 p-4 sm:m-3 bg-white-600' type='text' placeholder='Message'/></div>
+                <div><input className='outline-none sm:w-5/6 p-4 m-3 bg-white-600' type='text' placeholder='Name'/></div>
+                <div><input className='outline-none sm:w-5/6 p-4 m-3 bg-white-600' type='text' placeholder='Email'/></div>
+                <div><input className='outline-none sm:w-5/6 p-4 m-3 bg-white-600' type='text' placeholder='Phone number'/></div>
+                <div><textarea rows={7}  className='outline-none sm:w-5/6 p-4 m-3 bg-white-600' type='text' placeholder='Message'/></div>
                 <div><button className='w-5/6 p-4 m-3 bg-blue-600 text-white font-bold'>Message submit</button></div>
             </form>
          </div>
